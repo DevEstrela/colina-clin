@@ -1,0 +1,17 @@
+.container{
+    background-color: #011738;
+    height: 320px;
+    display: flex;
+}
+@media ( min-width: 768px) and (max-width: 1023px){
+    .container{
+        height: 260px;
+    }
+}
+@media (max-width: 767px) {
+    .container{
+        flex-direction: column;
+        height: 310px;
+    }
+}
+
