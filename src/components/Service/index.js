@@ -11,7 +11,7 @@ function Service(){
     return(
         <section className={styles.container}                                           
         data-aos="zoom-in-up"
-        data-aos-offset="0"
+        data-aos-offset="30"
         data-aos-delay="100"
         data-aos-duration="200"
         data-aos-easing="ease-in-sine"
