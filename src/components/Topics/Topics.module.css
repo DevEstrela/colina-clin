@@ -1,0 +1,79 @@
+.container{
+    display: flex;
+    width: 100%;
+}
+.containerDisplay{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 13%;
+}
+.containerTitle{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+}
+.containerTitle h1{
+    font-size: max(24px, 3vw);
+    color: #000000;
+    margin-bottom: 10px;
+}
+.containerTitle h1 span {
+    font-size: max(24px, 3vw);
+    color: #0B55C6;
+    margin-bottom: 10px;
+}
+.containerTitle p{
+    font-size: max(13px, 1.2vw);
+    color: #000102;
+    text-align: justify;
+}
+.containerTopics{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-left: 30px;
+}
+.containerTopics div{
+    display: flex;
+    margin-bottom: 10px;
+}
+.containerTopics p{
+    font-size: 1.2vmax;
+    color: #000000;
+    font-weight: 700;
+    text-align: justify;
+    margin-bottom: 15px;
+    margin-left: 50px;
+}
+.containerTitle p strong span {
+    color: #0B55C6;
+}
+.topics > img{
+    width: 2.5vmax;
+}
+.topics > h3{
+    font-size: max(15px, 1.5vw);
+    margin-left: 15px;
+}
+.containerImagens{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.img{
+    width: 40vw;
+    margin-top: 20%;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+    .img{
+        margin-top: 50%;
+        height: 15vh;
+    }
+    .containerDisplay{
+        margin-top: 15%;
+    }
+}
