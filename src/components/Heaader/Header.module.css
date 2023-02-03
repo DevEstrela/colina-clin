@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    border-bottom: 1px solid #efeef6;
+    background-color: #fff;
+    box-shadow: 0 2px 25px 10px rgb(15 12 49 / 7%);
+    position: fixed;
+    z-index: 1000;
+}   
+.containerLogo{
+    display: flex;
+    align-items: center;
+    width: 32%;
+}
+.containerLinks{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-around;
+}
+.containerButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 25%;
+}
+
+
+.containerLogo > a{
+    display: flex;
+    justify-content: center;
+}
+.containerLogo > a > img{
+    width: 50%;
+}
+.containerLinks > a{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 400;
+    font-family: var(--fontHeader);
+}
+.buttonNumber{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 10px 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #efeef6;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgb(24 20 67 / 7%), 0 2px 6px 0 rgb(93 79 255 / 10%);
+}
+.buttonNumber > img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.buttonWpp{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 10px 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #efeef6;
+    border-radius: 12px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px 0 rgb(24 20 67 / 7%), 0 2px 6px 0 rgb(93 79 255 / 10%);
+    font-weight: bold;
+}
+.buttonWpp > img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+@media (min-width: 769px) and (max-width: 1023px){
+
+}
+
+@media (max-width: 768px){
+    .container{
+        border-bottom: 1px solid #efeef6;
+        width: 100%;
+        position: initial;
+        z-index: 0;
+    }   
+    .containerLogo{
+        justify-content: center;
+        width: 35%;
+    }
+    .containerLinks{
+        width: 65%;
+    }
+    .containerButtons{
+        display: none;
+    }
+    .containerLogo > a > img{
+        width: 120px;
+    }
+    .containerLinks > a{
+        font-size: 11px;
+    }
+}
