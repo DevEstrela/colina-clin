@@ -13,9 +13,9 @@ function Home(){
         <Banner/>
         <Service/>
         <Main/>
-        {/* <Topics/> 
+        <Topics/> 
         <Form/>
-        <Footer/> */}
+        <Footer/>
         </>
     )
 }
