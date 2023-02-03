@@ -1,0 +1,128 @@
+.container{
+    height: 320px;
+    width: 50vw ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+.containerNav{
+    width:200px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.containerNav > div{
+    display: flex;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+.imgQualidade{
+    width: 10vw;
+}
+.containerNav > h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+}
+.containerNav > div > a{
+    color: #FFFFFF;
+    margin-left: 8px;
+    text-decoration: none;
+    font-size: 13px;
+}
+.containerNav > div > p{
+    margin-left: 8px;
+}
+.containerNav > div > img{
+    width: 20px;
+    height: 20px;
+}
+
+@media ( min-width: 768px) and (max-width: 1023px){
+    .container{
+        display: flex;
+        width: 50vw;
+        height: 260px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .containerNav > div{
+        margin-left: 0px;
+    }
+    .containerNav > div > img {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+    }
+    .containerNav > h4 {
+        font-size: 15px;
+        margin-bottom: 15px;
+        color: #FFFFFF;
+    }
+    .containerNav > div > a{
+        color: #FFFFFF;
+        margin-left: 0px;
+        font-size: 10px;
+    }
+    .containerNav > div > p{
+        margin-left: 0px;
+        font-size: 10px;
+    }
+    .container > div > img {
+        display: none;
+    }
+
+}
+@media (max-width: 767px) {
+    .container{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        margin: auto;
+        gap: 0px;
+        margin-right: 100px;
+    }
+    .containerNav{
+        display: flex;
+        flex-direction: column;
+        padding-left: 5px;
+
+    }
+    .containerNav > div{
+        display: flex;
+        margin-bottom: 15px;
+        color: #FFFFFF;
+        align-items: center;
+    }
+    .containerNav > div > img {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+
+    }
+    .containerNav > h4 {
+        font-size: 15px;
+        margin-bottom: 15px;
+        color: #FFFFFF;
+    }
+    .containerNav > div > a{
+        color: #FFFFFF;
+        margin-left: 0px;
+        font-size: 10px;
+        
+    }
+    .containerNav > div > p{
+        color: #FFFFFF;
+        margin-left: 0px;
+        font-size: 10px;
+        white-space: nowrap;
+    }
+    .container > div > img {
+        width: 20vw;
+        display: none;
+    }
+}
