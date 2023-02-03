@@ -14,6 +14,6 @@
     .container{
         width: 100%;
         flex-direction: column;
-        bottom: 10px;
+        bottom: 0px;
     }
 }
