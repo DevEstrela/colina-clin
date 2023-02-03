@@ -1,6 +1,7 @@
 import styles from '../Botox/Botox.module.css';
 import dente from '../../../img/service/dente.png';
 import seta from '../../../img/service/seta.png';
+import setaDireita from '../../../img/service/setaDireita.png'
 
 function Botox(){
     return(  
