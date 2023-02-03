@@ -1,0 +1,116 @@
+.box{
+    background: transparent;
+    perspective: 1000px;
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+}
+.box__content{
+    background: transparent;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: transform 600ms ease-in-out;
+}
+.box__front, 
+.box__back {
+    background-color: #ffffff;
+    width: 400px;
+    height: 200px;
+    box-shadow: 0px 8px 20px rgba(0, 24, 102, 0.466);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 20px;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.box__back {
+    background: #ffffff;
+    transform: rotateY(180deg);
+    padding-top: 30px;
+
+}
+.box:hover .box__content {
+    transform: rotateY(180deg);
+    
+}
+.box__back > div > p{
+    color: #000000;
+    
+}
+.box__back > div > p > strong > span{
+    color: #0052a3;
+    
+}
+.description h4{
+    color: #0052a3;
+    font-size: 22px;
+}
+.contSeta{
+    display: flex;
+    justify-content: flex-end;
+}
+.contDente{
+    display:  flex;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0052a3;
+}
+.imgSeta{
+    width: 50px;
+    height: 50px;
+}
+.imgDente{
+    width: 50px;
+    height: 50px;
+}
+.imgTele{
+    width: 50px;
+    height: 50px;
+}
+
+@media (min-width: 769px) and (max-width: 1023px){
+    
+}
+
+@media (max-width: 767px){
+    .box{
+        width: 100%;
+        height: 200px;
+    }
+    .box__front, 
+    .box__back {
+    align-items: center;
+    justify-content: center;
+}
+    .description h4{
+        font-size: 18px;
+    }
+    .contSeta{
+        display: flex;
+    }
+    .contDente{
+        width: 60px;
+        height: 60px;
+    }
+    .imgSeta{
+        width: 40px;
+        height: 40px;
+    }
+    .imgDente{
+        width: 40px;
+        height: 40px;
+    }
+    .imgTele{
+        width: 40px;
+        height: 40px;
+    }
+    
+}
