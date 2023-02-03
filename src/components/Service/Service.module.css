@@ -12,8 +12,9 @@
 
 @media (max-width: 767px){
     .container{
-        width: 100%;
         flex-direction: column;
-        bottom: 0px;
+        height: 600px;
+        justify-content: flex-start;
+        bottom: 90px;
     }
 }
