@@ -40,7 +40,7 @@ function Topics(){
             <section className={styles.containerImagens}>
                 <div className={styles.contanerImg}
                     data-aos="fade-up"
-                    data-aos-offset="250"      //deslocamento (em px) do ponto de disparo original
+                    data-aos-offset="50"      //deslocamento (em px) do ponto de disparo original
                     data-aos-delay="200"      //valores de 0 a 3000, com passo 50ms
                     data-aos-duration="500"  //atenuação padrão para animações AOS
                     data-aos-mirror="false"  //se a animação deve acontecer apenas uma vez - enquanto rola para baixo
@@ -52,7 +52,7 @@ function Topics(){
                 </div>
                 <div className={styles.contanerImg}
                     data-aos="fade-up"
-                    data-aos-offset="250"      //deslocamento (em px) do ponto de disparo original
+                    data-aos-offset="50"      //deslocamento (em px) do ponto de disparo original
                     data-aos-delay="200"      //valores de 0 a 3000, com passo 50ms
                     data-aos-duration="500"  //atenuação padrão para animações AOS
                     data-aos-mirror="false"  //se a animação deve acontecer apenas uma vez - enquanto rola para baixo
