@@ -59,3 +59,38 @@
     margin-right: 5%;
     box-shadow: 0px 8px 20px rgba(0, 24, 102, 0.466);
 }
+
+@media (min-width: 769px) and (max-width: 1023px){
+    
+}
+
+@media (max-width: 767px){
+   
+    .Main{
+        margin-top: -30px;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .containerMedicos{     
+        width: 80%;
+        height: 320px;
+    }
+    .containerDocs{
+        display: flex;
+        margin-top: 45px;
+        justify-content: center;
+        justify-content: space-around;        
+    }
+    .docs{
+        width: 30vw;
+        text-align: center;
+        height:  10vh;
+        box-shadow: 0px 5px 10px rgba(0, 24, 102, 0.466);
+    }
+    .imgFrente{
+        width: 70%;
+    }
+    .containerMedicos > article > p > strong > span{
+        color: #0B55C6;
+    }
+}
