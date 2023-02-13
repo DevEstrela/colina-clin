@@ -6,8 +6,11 @@
     position: relative;
     bottom: 90px;
 }
-@media (min-width: 769px) and (max-width: 1023px){
-    
+@media (min-width: 769px) and (max-width: 1223px){
+    .container{
+        justify-content: space-around;
+        align-items: center;
+    }
 }
 
 @media (max-width: 767px){
