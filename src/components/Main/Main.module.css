@@ -48,7 +48,6 @@
     
 }
 .docs{
-    background-color: #ffffff5d;
     width: max(20px, 20vw);
     text-align: center;
     height: max(80px, 10vw);
@@ -60,7 +59,7 @@
     box-shadow: 0px 8px 20px rgba(0, 24, 102, 0.466);
 }
 
-@media (min-width: 769px) and (max-width: 1023px){
+@media (min-width: 769px) and (max-width: 1223px){
     
 }
 
@@ -86,6 +85,10 @@
         text-align: center;
         height:  10vh;
         box-shadow: 0px 5px 10px rgba(0, 24, 102, 0.466);
+    }
+    .containerImg{
+        margin-right: 30px;
+        width: 320px;
     }
     .imgFrente{
         width: 70%;
