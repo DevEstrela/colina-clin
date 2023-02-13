@@ -21,13 +21,7 @@ function Form(){
                                 />
                                 <label>Nome</label>
 
-                            </div>
-
-
-
-
-
-                                
+                            </div>                                
                            
                             <div className={styles.email}>
                                 <input 
@@ -36,9 +30,7 @@ function Form(){
                                     />
                                 <label className={styles.email}>Email</label>
 
-                            </div>
-
-                                
+                            </div>                                
                             
                             <div className={styles.telefone}>
                                 <input 
@@ -46,13 +38,6 @@ function Form(){
                                 />
                                 <label>Telefone</label>
                             </div>
-
-
-
-
-
-
-
 
                             <div className={styles.mensagem}>
                             <input 
